@@ -1,0 +1,103 @@
+.register-container{
+display:flex;
+min-height:100vh;
+}
+
+.register-left{
+flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#f8fafc;
+padding:40px;
+}
+
+.register-content{
+width:100%;
+max-width:430px;
+}
+
+.register-content h1{
+font-size:38px;
+margin-bottom:10px;
+color:#1e293b;
+}
+
+.register-content p{
+color:#64748b;
+margin-bottom:25px;
+}
+
+.register-content select,
+.register-content input{
+width:100%;
+padding:14px;
+border:1px solid #cbd5e1;
+border-radius:10px;
+font-size:16px;
+}
+
+.register-submit{
+width:100%;
+padding:15px;
+background:#10b981;
+color:white;
+border:none;
+border-radius:10px;
+font-size:17px;
+cursor:pointer;
+margin-top:10px;
+transition:.3s;
+}
+
+.register-submit:hover{
+background:#059669;
+}
+
+.login-link{
+margin-top:20px;
+text-align:center;
+}
+
+.login-link a{
+text-decoration:none;
+font-weight:bold;
+color:#2563eb;
+}
+
+.register-right{
+flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#10b981,#2563eb);
+color:white;
+padding:40px;
+}
+
+.register-right .overlay{
+max-width:420px;
+text-align:center;
+}
+
+.register-right h2{
+font-size:46px;
+margin-bottom:20px;
+}
+
+.register-right p{
+font-size:20px;
+line-height:1.8;
+}
+
+@media(max-width:900px){
+
+.register-right{
+display:none;
+}
+
+.register-content h1{
+font-size:32px;
+}
+
+}
